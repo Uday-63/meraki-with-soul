@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff5f8;
+    text-align: center;
+}
+
+header {
+    background: #c2185b;
+    color: white;
+    padding: 30px;
+}
+
+.about, .services {
+    padding: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #c2185b;
+    color: white;
+    padding: 15px;
+}
